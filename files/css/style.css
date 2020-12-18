@@ -39,9 +39,9 @@
 .box {
     width: 100%;
     height: 100%;
-    border: 10px solid rgb(57, 226, 147);
     position: relative;
     border-radius: 50%;
+    border: 10px solid rgb(57, 226, 147);
     overflow: hidden;
     transition: all ease 5s;
 }
@@ -82,6 +82,21 @@ span {
     left: 120px;
 }
 
+.box1 .span3 angka{
+    transform: translate(-50%, -50%) rotate(-270deg);
+}
+
+.box1 .span1 angka, .box2 .span1 angka{
+   transform: translate(-50%, -50%) rotate(185deg);
+}
+
+.box2 .span3 angka{
+   transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.box1 .span4 angka, .box2 .span4 angka{
+   transform: translate(-50%, -50%) rotate(-85deg);
+}
 
 .box2 {
     width: 100%;
